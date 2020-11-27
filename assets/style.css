@@ -229,7 +229,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .hero-container {
   position: relative;
   z-index: 2;
-  min-width: 320px;
+  min-width: 300px;
 }
 
 #hero h1 {
@@ -262,7 +262,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 28px;
+    font-size: 33px;
     line-height: 36px;
   }
   #hero h2 {
@@ -271,7 +271,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 30px;
   }
   #hero p {
-    font-size: 18px;
+    font-size: 14px;
   }
 }
 
@@ -1048,14 +1048,6 @@ section {
     position: static;
     margin-top: 30px;
   }
-  .portfolio-details .challenge-box {
-    position: static;
-    margin-top: 30px;
-  }
-  .portfolio-details .challenge-box-result {
-    position: static;
-    margin-top: 30px;
-  }
 }
 
 .purple {
@@ -1183,6 +1175,57 @@ textarea {
   .challenge-box-result {
     position: static;
     margin-top: 30px;
+  }
+}
+
+.paragraph {
+  margin-top: 20px;
+}
+
+.game-info {
+  padding: 30px;
+  position: static;
+  width: 90%;
+  right: 0;
+  bottom: -70px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.game-info h3 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.game-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+
+.game-info ul li + li {
+  margin-top: 10px;
+}
+
+@media (max-width: 1000px) {
+  .game-info {
+    width: 95%;
+  }
+}
+
+iframe {
+  width: 90%;
+  height: 600px;
+}
+
+@media (max-width: 1000px) {
+  iframe {
+    width: 95%;
+    height: 363px;
   }
 }
 
