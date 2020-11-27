@@ -1,3 +1,9 @@
+/**
+* Template Name: iPortfolio - v1.4.1
+* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
 
 /*--------------------------------------------------------------
 # General
@@ -223,7 +229,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .hero-container {
   position: relative;
   z-index: 2;
-  min-width: 320px;
+  min-width: 300px;
 }
 
 #hero h1 {
@@ -256,7 +262,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 33px;
+    font-size: 28px;
     line-height: 36px;
   }
   #hero h2 {
@@ -264,9 +270,6 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
-  
-  #hero p {
-    font-size: 14px;
 }
 
 /*--------------------------------------------------------------
@@ -1042,14 +1045,6 @@ section {
     position: static;
     margin-top: 30px;
   }
-  .portfolio-details .challenge-box {
-    position: static;
-    margin-top: 30px;
-  }
-  .portfolio-details .challenge-box-result {
-    position: static;
-    margin-top: 30px;
-  }
 }
 
 .purple {
@@ -1180,6 +1175,10 @@ textarea {
   }
 }
 
+.paragraph {
+  margin-top: 20px;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1212,5 +1211,4 @@ textarea {
     width: auto;
     padding-right: 20px 15px;
   }
-}
 }

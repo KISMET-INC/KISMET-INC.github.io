@@ -56,11 +56,12 @@
 
       <nav class="nav-menu">
         <ul>
-          <li><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="index.html#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
           <li><a href="index.html#about"><i class="bx bx-user"></i> <span>About</span></a></li>
           <li><a href="index.html#projects"><i class="bx bx-file-blank"></i> <span>Technical Projects</span></a></li>
           <li class="active"><a href="index.html#challenges"><i class="bx bx-book-content"></i>Coding Challenges</a></li>
           <li><a href="index.html#contact"><i class="bx bx-envelope"></i> Contact</a></li>
+          <li><a href="#"><i class="bx bx-images"></i> Dog Pics - coming soon</a></li>
 
         </ul>
       </nav><!-- .nav-menu -->
@@ -82,12 +83,11 @@
             <li>Double Cola</li>
           </ol>
         </div>
-        <b>Write a program that will return the name of the person who will drink the n-th cola</b>
-        <b>If every person who gets a soda is moved to the end of the line and doubled.</b>
+        <b>Sheldon, Leonard, Penny, Rajesh and Howard are in the queue for a "Double Cola" drink vending machine. The first one in the queue (Sheldon) buys a can, drinks it and doubles! The resulting two Sheldons go to the end of the queue. Then the next in the queue (Leonard) buys a can, drinks it and gets to the end of the queue as two Leonards, and so on.</b>
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <!-- ======= Portfolio Details Section ======= -->
+    <!-- ======= Challenge Details Section ======= -->
     <section id="portfolio-details" class="portfolio-details">
       <div class="container">
 
@@ -109,7 +109,7 @@
               <p><textarea class='col-12' id='names' type='text'>Sheldon, Leonard, Penny, Rajesh, Howard</textarea></p>
             </div>
 
-            <button onClick="whoIsNext()">Submit</button>
+            <button onClick="challenge()">Submit</button>
           </div>
 
           <div class="challenge-box-result">
@@ -144,11 +144,11 @@
           </div>
 
         </div>
-    </section><!-- End Portfolio Details Section -->
+    </section><!-- End Challenge Details Section -->
 
   </main><!-- End #main -->
   <script>
-    function whoIsNext() {
+    function challenge() {
       var r = parseInt(document.getElementById('number').value);
       var namesSTR = document.getElementById('names').value;
       var names = namesSTR.split(',')
