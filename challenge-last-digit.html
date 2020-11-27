@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Coding Challenge</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio - v1.4.1
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/kmoreland.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Kristen San Martin</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://github.com/KISMET-INC" add target="_blank" class="linkedin"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/kristen-sanmartin/" add target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="index.html#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="index.html#projects"><i class="bx bx-file-blank"></i> <span>Technical Projects</span></a></li>
+          <li class="active"><a href="index.html#challenges"><i class="bx bx-book-content"></i>Coding Challenges</a></li>
+          <li><a href="index.html#contact"><i class="bx bx-envelope"></i> Contact</a></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Coding Challenge</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Last Digit</li>
+          </ol>
+        </div>
+        <b>Define a function that takes in two non-negative integers a and b and returns the last decimal digit of a^b. Note that a and b may be very large!</b>
+      </div>
+    </section><!-- End Breadcrumbs -->
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="portfolio-details-container">
+
+          <div class="owl-carousel portfolio-details-carousel">
+            <img src="assets/img/codewars.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="challenge-box">
+            <h3 class="purple">Last Digit</h3>
+
+            <div class="form-group">
+              <label for='a'>Input a number 'a' : </label>
+              <input id="a" type='number' value='10'>
+              <p class='errors' id='errorA'></p>
+            </div>
+
+            <div class="form-group">
+              <label for='b'>Input a number 'b' : </label>
+              <input id="b" type='number' value='10000000000'>
+              <p class='errors' id='errorB'></p>
+            </div>
+
+            <button onClick="challenge()">Submit</button>
+          </div>
+
+          <div class="challenge-box-result">
+
+            <div class="form-group">
+              <h3 class="purple">Result </h3>
+              <p>The last digit.</p>
+              <div id='result' class="result col-12"></div>
+            </div>
+            <a href="assets/img/last-digit.jpg" data-gall="portfolioGallery" class="venobox" title="Last Digit"><i class="bx bx-plus"></i>View Code</a>
+          </div>
+
+        </div>
+
+        <div class="portfolio-description">
+          <h2>Instructions:</h2>
+          <p>Define a function that takes in two non-negative integers a and b and returns the last decimal digit of a<sup>b</sup>. Note that a and b may be very large!
+          <p>For example, the last decimal digit of 9<sup>7</sup> is 9, since 9<sup>7</sup>= 47829699.</p>
+          <p>The last decimal digit of (2<sup>200</sup>)<sup>2<sup>300</sup></sup> , which has over 10<sup>92</sup> decimal digits, is 6. Also, please take 0<sup>0</sup> to be 1.
+          <p>You may assume that the input will always be valid.</p>
+          <h2>Output / Examples:</h2>
+          <div class="codeWindow">
+            <p>lastDigit("4", "1") // returns 4</p>
+            <p>lastDigit("4", "2") // returns 6</p>
+            <p>lastDigit("9", "7") // returns 9 </p>
+            <p>lastDigit("10","10000000000") // returns 0</p>
+          </div>
+        </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+  <script>
+    function challenge() {
+      var a = Math.round(document.getElementById('a').value);
+      var b = Math.round(document.getElementById('b').value);
+      if (a < 0 || b < 0) {
+        if (a < 0) {
+          document.getElementById('errorA').innerHTML = "This value must be positive."
+        }
+        if (b < 0) {
+          document.getElementById('errorB').innerHTML = "This value must be positive."
+        }
+        return;
+      }
+      var lastDigitA = a % 10;
+      var bMod4 = b % 100;
+      var aLength = a.toString().length
+      if (aLength == 2 && lastDigitA == 0 && bMod4 == 0) {
+        document.getElementById('result').innerHTML = 1
+        return;
+      }
+      if (bMod4 == 0 && lastDigitA == 0) {
+        document.getElementById('result').innerHTML = 0
+        return;
+      }
+      if (bMod4 == 0) {
+        document.getElementById('result').innerHTML = Math.pow(lastDigitA, bMod4)
+      }
+      bMod4 = bMod4 % 4
+      if (bMod4 == 0) {
+        document.getElementById('result').innerHTML = Math.pow(lastDigitA, 4) % 10
+      } else {
+        document.getElementById('result').innerHTML = Math.pow(lastDigitA, bMod4) % 10
+      }
+    }
+  </script>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        <strong><span>kmoreland909@gmail.com</span></strong>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/my.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Coding Challenge</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio - v1.4.1
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/kmoreland.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Kristen San Martin</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://github.com/KISMET-INC" add target="_blank" class="linkedin"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/kristen-sanmartin/" add target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="index.html#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="index.html#projects"><i class="bx bx-file-blank"></i> <span>Technical Projects</span></a></li>
+          <li class="active"><a href="index.html#challenges"><i class="bx bx-book-content"></i>Coding Challenges</a></li>
+          <li><a href="index.html#contact"><i class="bx bx-envelope"></i> Contact</a></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Coding Challenge</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Double Cola</li>
+          </ol>
+        </div>
+        <b>Write a program that will return the name of the person who will drink the n-th cola</b>
+        <b>If every person who gets a soda is moved to the end of the line and doubled.</b>
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="portfolio-details-container">
+
+          <div class="owl-carousel portfolio-details-carousel">
+            <img src="assets/img/codewars.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="challenge-box">
+            <h3 class="purple">Double Cola</h3>
+
+            <div class="form-group">
+              <label for='input'>Input a number: </label>
+              <p><input class="col-6" id='number' value='7230702951' type='number'></p>
+            </div>
+            <div class="form-group">
+              <label for='name'>Input a list of names seperated by commas : </label>
+              <p><textarea class='col-12' id='names' type='text'>Sheldon, Leonard, Penny, Rajesh, Howard</textarea></p>
+            </div>
+
+            <button onClick="whoIsNext()">Submit</button>
+          </div>
+
+          <div class="challenge-box-result">
+
+            <div class="form-group">
+              <h3 class="purple">Result </h3>
+              <p>The person who will drink the N'th cola :</p>
+              <div id='result' class="result col-12"></div>
+            </div>
+            <a href="assets/img/double_cola.JPG" data-gall="portfolioGallery" class="venobox" title="Double Cola"><i class="bx bx-plus"></i>View Code</a>
+          </div>
+
+        </div>
+
+        <div class="portfolio-description">
+          <h2>Instructions:</h2>
+
+          <p>Sheldon, Leonard, Penny, Rajesh and Howard are in the queue for a "Double Cola" drink vending machine; there are no other people in the queue. The first one in the queue (Sheldon) buys a can, drinks it and doubles! The resulting two Sheldons go to the end of the queue. Then the next in the queue (Leonard) buys a can, drinks it and gets to the end of the queue as two Leonards, and so on.</p>
+          <p>For example, Penny drinks the third can of cola and the queue will look like this:</p>
+
+          <div class="codeWindow"> Rajesh, Howard, Sheldon, Sheldon, Leonard, Leonard, Penny, Penny </div>
+          <h2>Input:</h2>
+          <p>The input data consist of an array which contains at least 1 name, and single integer n which may go as high as the biggest number your language of choice supports (if there's such limit, of course).</p>
+
+          <h2>Output / Examples:</h2>
+          <p>Return the single line — the name of the person who drinks the n-th can of cola. The cans are numbered starting from 1.</p>
+          <div class="codeWindow">
+            <p>whoIsNext(["Sheldon", "Leonard", "Penny", "Rajesh", "Howard"], 1) == "Sheldon"</p>
+            <p>whoIsNext(["Sheldon", "Leonard", "Penny", "Rajesh", "Howard"], 52) == "Penny"</p>
+            <p>whoIsNext(["Sheldon", "Leonard", "Penny", "Rajesh", "Howard"], 7230702951) == "Leonard"</p>
+
+          </div>
+
+        </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+  <script>
+    function whoIsNext() {
+      var r = parseInt(document.getElementById('number').value);
+      var namesSTR = document.getElementById('names').value;
+      var names = namesSTR.split(',')
+      let min = 0
+      let max = names.length
+      let doubler = 1;
+      while (max < r) {
+        doubler *= 2
+        min = max + 1
+        max = max + (names.length * doubler)
+      }
+      if (min == 0) {
+        return names[r - 1]
+      }
+      let next = Math.floor((r - min) / doubler)
+      document.getElementById('result').innerHTML = names[next]
+    }
+  </script>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        <strong><span>kmoreland909@gmail.com</span></strong>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/my.js"></script>
+
+</body>
+
+</html>
