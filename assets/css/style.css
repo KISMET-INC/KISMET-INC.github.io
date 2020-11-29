@@ -331,7 +331,7 @@ section {
 
 .about .content ul li {
   padding-bottom: 10px;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .about .content ul i {
@@ -1041,6 +1041,10 @@ section {
   padding: 0;
 }
 
+.portfolio-details .portfolio-description .blue {
+  color: #149ddd;
+}
+
 @media (max-width: 768px) {
   .portfolio-details .portfolio-description h2 {
     width: 100%;
@@ -1049,10 +1053,6 @@ section {
     position: static;
     margin-top: 30px;
   }
-}
-
-.purple {
-  color: #A72AB2;
 }
 
 /*--------------------------------------------------------------
@@ -1244,6 +1244,20 @@ iframe {
 #questions h2 {
   font-size: 20px;
   color: #149ddd;
+}
+
+.video_projects {
+  display: flex;
+}
+
+@media (max-width: 1000px) {
+  .video_projects {
+    display: unset;
+  }
+}
+
+video {
+  width: 95%;
 }
 
 /*--------------------------------------------------------------
