@@ -1,8 +1,10 @@
 # KISMET-INC.github
-**kis·met**  
-/ˈkizmit,ˈkizˌmet/  
+## **kis·met**  
+    /ˈkizmit,ˈkizˌmet/  
 *noun*  
+```bash
 destiny; fate.
+```
 
 >  “The only person you are destined to become is the person you decide to be.”  
 **― Ralph Waldo Emerson**
