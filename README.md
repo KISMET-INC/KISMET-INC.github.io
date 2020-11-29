@@ -11,10 +11,10 @@ destiny; fate.
 
 
 ## Description
-I chose **KISMET** not just for it's meaning but also as a meaningful shorthand to my name **KRISTEN SM**
 
-**[KISMET-INC.github.io](https://kismet-inc.github.io/index.html)** is a website to display my body of work as a software developer in a clean professional manner. It was launched from a Bootstrap template in order to be ready to view in a timely manner post graduation. While this website model is entirely HTML, and CSS in was generated using several other technologies such as **[Gulp.js](https://gulpjs.com/)**, **[NodeJS](https://nodejs.org/en/)**, and **[Nunjucks](https://mozilla.github.io/nunjucks/)**. The backbone of this repository and the code I workded with directly is located at **[KISMET-INC/portfolio-dev](https://github.com/KISMET-INC/portfolio-dev)**.
+**[KISMET-INC.github.io](https://kismet-inc.github.io/index.html)** is a website to display my body of work as a software developer in a clean professional manner. It was launched from a Bootstrap template in order to be ready to view in a timely manner post graduation. While this website model is entirely **HTML**, **Javascript**, and **CSS** in was generated using several other technologies such as **[Gulp.js](https://gulpjs.com/)**, **[NodeJS](https://nodejs.org/en/)**, and **[Nunjucks](https://mozilla.github.io/nunjucks/)**. The backbone of this repository and the code I workded with directly is located at **[KISMET-INC/portfolio-dev](https://github.com/KISMET-INC/portfolio-dev)**.
 
+> Note: The word **KISMET** was chosen not just for it's meaning but also as a meaningful shorthand to my name **KRISTEN SM**
 ## Screenshots
 
 ![alt text](assets/img/kismet_readme/kismet01.jpg)
