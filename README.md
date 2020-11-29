@@ -17,8 +17,8 @@ destiny; fate.
 
 ![alt text](assets/img/kismet_readme/kismet01.jpg)
 ![alt text](assets/img/kismet_readme/kismet04.JPG)
-![alt text](assets/img/kismet_readme/kismet06.jpg)
-![alt text](assets/img/kismet_readme/kismet05.JPG)
+![alt text](assets/img/kismet_readme/kismet06.JPG)
+![alt text](assets/img/kismet_readme/kismet05.jpg)
 
 ## Installation
 
