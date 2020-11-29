@@ -11,8 +11,8 @@ destiny; fate.
 
 
 ## Description
-> *I chose **KISMET** not just for it's meaning but also as a meaningful shorthand to my name **KRISTEN SM***
-> 
+ *I chose **KISMET** not just for it's meaning but also as a meaningful shorthand to my name **KRISTEN SM***
+
 [KISMET-INC.github.io](https://kismet-inc.github.io/index.html) is a website to display my body of work in a clean professional manner. It was launched from a Bootstrap template in order to be ready to view in a timely manner post graduation. While this website model is entirely HTML, and CSS in was generated using several other technologies such as Gulp.js, NodeJS, and Nunjucks. The backbone of this repository is located at [KISMET-INC/portfolio-dev](https://github.com/KISMET-INC/portfolio-dev).
 
 ## Screenshots
