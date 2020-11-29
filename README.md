@@ -15,10 +15,10 @@ destiny; fate.
 
 ## Screenshots
 
-![alt text](src/assets/img/kismet_readme/kismet01.jpg)
-![alt text](src/assets/img/kismet_readme/kismet04.jpg)
-![alt text](src/assets/img/kismet_readme/kismet06.jpg)
-![alt text](src/assets/img/kismet_readme/kismet05.jpg)
+![alt text](assets/img/kismet_readme/kismet01.jpg)
+![alt text](assets/img/kismet_readme/kismet04.JPG)
+![alt text](assets/img/kismet_readme/kismet06.jpg)
+![alt text](assets/img/kismet_readme/kismet05.JPG)
 
 ## Installation
 
