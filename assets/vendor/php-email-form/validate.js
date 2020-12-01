@@ -157,7 +157,6 @@
       // if(data.responseText) {
       //   error_msg += data.responseText;
       // }
-    
       this_form.find('.loading').slideUp();
       this_form.find('.sent-message').slideDown();
       this_form.find("input:not(input[type=submit]), textarea").val('');
