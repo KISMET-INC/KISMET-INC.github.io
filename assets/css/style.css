@@ -331,6 +331,12 @@ section {
   font-size: 17px;
 }
 
+@media (max-width: 500px) {
+  .about .content ul li {
+    font-size: 12px;
+  }
+}
+
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
