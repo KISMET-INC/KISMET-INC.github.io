@@ -23,11 +23,11 @@ destiny; fate.
 
 ## Installation
 
-1. Clone the repository down to your local drive by opening up a terminal in the folder of your choice and type the code: 
+Clone the repository down to your local drive by opening up a terminal in the folder of your choice and type the code: 
 ```bash
 git clone https://github.com/KISMET-INC/KISMET-INC.github.io.git
 ```
-2. Double click the **index.html** to launch the website locally.
+Double click the **index.html** to launch the website locally.
 
 ## Contributing
 I am currently not accepting contributions to this project.

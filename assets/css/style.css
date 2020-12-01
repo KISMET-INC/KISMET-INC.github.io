@@ -8,6 +8,15 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
 }
 
 a {
@@ -56,6 +65,10 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+#header::-webkit-scrollbar {
+  display: none;
+}
+
 #header {
   position: fixed;
   top: 0;
@@ -68,6 +81,10 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 15px;
   background: #040b14;
   overflow-y: auto;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
 
 #header .profile img {
@@ -333,7 +350,7 @@ section {
 
 @media (max-width: 500px) {
   .about .content ul li {
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 
@@ -606,6 +623,7 @@ section {
   background: #fff;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  margin-bottom: 30px;
 }
 
 .contact .info i {
@@ -1035,6 +1053,16 @@ textarea {
     width: 100%;
     margin-top: 30px;
   }
+}
+
+@media (max-width: 499px) {
+  .challenge-box-result {
+    width: 90%;
+  }
+}
+
+.purple {
+  color: purple;
 }
 
 .paragraph {
