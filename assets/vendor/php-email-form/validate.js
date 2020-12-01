@@ -125,8 +125,8 @@
 
   function php_email_form_submit(this_form, action, data) {
     $.ajax({
-      type: "GET",
-      url: "https://formspree.io/thanks?language=en",
+      type: "POST",
+      url: action,
       data: data,
       timeout: 40000
     }).done( function(msg){
