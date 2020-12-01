@@ -31,11 +31,11 @@ git clone https://github.com/KISMET-INC/KISMET-INC.github.io.git
 2. Double click the **index.html** to launch the website locally
 
 ## Contributing
-I am not accepting contributions to this project at this time.
+I am currently not accepting contributions to this project.
 
-## Roadmap
+## Future Updates
 As I get better and upgrade my projects or add new ones this website will be constantly updated to reflect that. Bookmark the deployment URL for this site, **[KISMET-INC.github.io](https://kismet-inc.github.io/index.html)** to see what I add to it in the future.
 
-## Authors and acknowledgment
+## Authors and Acknowledgment
 Thank you to [BootStrapMade](https://bootstrapmade.com/) for supplying an easy to use template to launch and learn from.
 
