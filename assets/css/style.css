@@ -1017,7 +1017,6 @@ textarea {
 
 .challenge-box-result {
   padding: 30px;
-  min-width: 400px;
   position: absolute;
   border-radius: 5px;
   left: 520px;
@@ -1055,7 +1054,7 @@ textarea {
   }
 }
 
-@media (max-width: 499px) {
+@media (max-width: px) {
   .challenge-box-result {
     width: 90%;
   }
