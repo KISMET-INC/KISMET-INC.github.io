@@ -1137,10 +1137,13 @@ iframe {
   .video_projects {
     display: unset;
   }
+  .video_projects video {
+    width: 100%;
+  }
 }
 
 video {
-  width: 95%;
+  width: 70%;
 }
 
 /*--------------------------------------------------------------
