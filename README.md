@@ -1,6 +1,6 @@
 # KISMET-INC.github
 ## **kis·met**  
-    /ˈkizmit,ˈkizˌmet/  
+    /'kizmit,'kiz-met/  
 *noun*  
 ```bash
 destiny; fate.
