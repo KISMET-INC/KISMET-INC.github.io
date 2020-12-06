@@ -916,6 +916,10 @@ section {
   padding: 0;
 }
 
+.portfolio-details .portfolio-description li {
+  padding-bottom: 15px;
+}
+
 .portfolio-details .portfolio-description .blue {
   color: #149ddd;
 }
