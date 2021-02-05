@@ -1135,8 +1135,15 @@ iframe {
 
 .video_projects {
   display: flex;
+  margin-top: 30px;
 }
 
+.video a {
+  display: block;
+}
+.video p {
+  width: 400px;
+}
 @media (max-width: 1000px) {
   .video_projects {
     display: unset;
